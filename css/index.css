@@ -1,0 +1,61 @@
+/*公共*/
+body{
+    margin: 0;
+    padding: 0;
+}
+    *{ margin: 0;padding: 0;}
+
+/*公共结*/
+
+
+
+/*头部*/
+/*顶部通栏*/
+#header .header-top{
+    height: 32px;
+    background:#f8f8f8;
+    border-bottom:1px solid #ddd;
+    line-height: 35px;
+    position: relative;
+}
+#header .header-top ul li a{
+    color: #666;
+    font-size: 12px;
+    position: relative;
+}
+
+#header .header-top ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: flex-end;
+    position: absolute;
+    right: 200px;
+}
+
+#header .header-top ul li{
+    margin-left: 40px;
+}
+
+#header .header-top ul li span.yidong{
+    width: 14px;
+    height: 16px;
+    background: url(../images/topbotbg.png) no-repeat;
+    position: absolute;
+    top: 9px;
+    right: 314px;
+}
+#header .header-top ul li span.weixing{
+    width: 14px;
+    height: 16px;
+    background: url(../images/topbotbg.png) no-repeat;
+
+
+
+}
+
+
+
+
+
+/*头部*/
